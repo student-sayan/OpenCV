@@ -29,3 +29,5 @@ match pic:
         
     case _:
         print("Invalid location")
+
+        #ok
