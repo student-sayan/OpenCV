@@ -6,11 +6,11 @@ if image is None:
     print("Image is not found")
 else:
     print("Image loaded successfully")
-    pt1 = (150,150)
+    pt1 = (200,150)
     
 
     color = (255,0,0)
-    thickness = 4
+    thickness = -1
 
     cv2.circle(image, pt1, 100, color, thickness)
     
